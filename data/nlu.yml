@@ -45,7 +45,7 @@ nlu:
 
 - intent: lang_search
   examples: |
-    - मैं [hindi](language) के बारे में जानना चाहता हूं
-    - क्या आप [spanish](language) खोज सकते हैं?
-    - [french](language) के लिए अधिक जानकारी की आवश्यकता है
-    - [gujrati](language) देखो
+    - मैं [हिन्दी](language) के बारे में जानना चाहता हूं
+    - क्या आप [स्पेनिश](language) खोज सकते हैं?
+    - [फ्रेंच](language) के लिए अधिक जानकारी की आवश्यकता है
+    - [गुजराती](language) देखो
