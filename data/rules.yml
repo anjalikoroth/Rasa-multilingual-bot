@@ -19,10 +19,7 @@ rules:
    - intent: thanks
    - action: utter_thanks
    
-  # - rule: submit form
- #   condition:
- #   - active_loop: newsletter_form
- #   steps:
- #   - action: newsletter_form
- #   - active_loop: null
- #   - action: utter_subscribed
+ - rule: search the family of a language based on query
+   steps:
+   - intent: family_search
+   - action: action_family_search
