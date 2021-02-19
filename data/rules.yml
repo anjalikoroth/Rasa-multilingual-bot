@@ -2,24 +2,32 @@ rules:
  - rule: greet the user
    steps:
    - intent: greet
-   - action: utter_greet
+   - action: action_greetings
 
  - rule: say bye to the user
    steps:
    - intent: goodbye
-   - action: utter_goodbye
-
- - rule: search a language details based on user query
-   steps:
-   - intent: lang_search
-   - action: action_lang_search
+   - action: action_partings
 
  - rule: respond positively when the user says thank you
    steps:
    - intent: thanks
    - action: utter_thanks
+
+ - rule: search a language details based on user 
+   steps:
+   - intent: lang_search
+   - action: action_lang_search
+   - action: feedback_loop
    
- - rule: search the family of a language based on query
+ - rule: search the languages belonging to a particular family 
    steps:
    - intent: family_search
    - action: action_family_search
+   - action: feedback_loop
+
+ - rule: search the languages in a macroarea based on 
+   steps:
+   - intent: macro_area
+   - action: action_macro_area_search
+   - action: feedback_loop

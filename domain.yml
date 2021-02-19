@@ -12,38 +12,28 @@ intents:
   - deny
   - lang_search
   - family_search
+  - macro_area
 
 entities:
   - language
-  - family
+  - family  
+  - macroarea
 
 responses:
-  utter_greet:
-  - text: |
-      मैं तुम्हारी मदद कैसे कर सकता हूं?
-  - text: |
-      नमस्ते!
-  - text: |
-      अरे! मेरे द्वारा आपके लिए क्या किया जा सकता है?
-  utter_goodbye:
-  - text: |
-      अलविदा
-  - text: |
-      आप से बात करके अछा लगा।
-  - text: |
-      फिर मिलेंगे!
   utter_thanks:
   - text: |
       खुशी है कि मैं मदद की हो सकती है!
   - text: |
       धन्यवाद!
   - text: |
-      मदद करने में खुशी होगी :)  
+      आपकी मदद करके प्रसन्नता हुई :)
 
 actions:
 - '...'
-- utter_greet
-- utter_goodbye
 - action_lang_search
 - utter_thanks
 - action_family_search
+- action_macro_area_search
+- feedback_loop
+- action_greetings
+- action_partings
