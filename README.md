@@ -16,6 +16,7 @@ This chatbot has essentially 4 features
 3. It can search the languages in a macroarea. Input example would include
 ```
 क्या आप अफ्रीका में बोली जाने वाली भाषाओं को ढूंढ सकते हैं
+ऑस्ट्रेलिया में बोली जाने वाली भाषाओं की खोज करें
 ```
 
 4. Based on time of the day it would give out salutations
