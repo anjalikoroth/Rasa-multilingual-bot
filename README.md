@@ -10,6 +10,7 @@ This chatbot has essentially 4 features
 2. It can search the languages belonging to a particular family. Input example would include
 ```
 कौन सी भाषा नाइजर-कांगो परिवार की है
+कौन सी भाषाएं भारोपीय परिवार से संबंधित हैं?
 ```
 
 3. It can search the languages in a macroarea. Input example would include
