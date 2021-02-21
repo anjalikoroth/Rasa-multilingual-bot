@@ -4,7 +4,7 @@ This chatbot has essentially 4 features
 1. It can search for a particular language. Input example would include
 ```
 मुझे हिंदी भाषा के बारे में बताओ
-
+मुझे फ्रेंच भाषा के बारे में कुछ बताइए
 ```
 
 2. It can search the languages belonging to a particular family. Input example would include
